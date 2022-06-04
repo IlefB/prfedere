@@ -1,0 +1,86 @@
+body
+{
+    height: 130%;
+    width: 99.1%; 
+    padding: 0;
+    margin: 0;
+}
+.backim
+{
+    width: 101.6%;
+    height: 110%;
+    background-image:url(1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-left: -0.8%;
+    margin-top: -0.8%;
+    
+    margin-bottom: -3%;
+}
+.essence
+{
+    height: 112%;
+    width: 100.1%;
+    opacity: 85%;
+    margin-top: -8%;
+    
+}
+.navbar
+{
+    width: 85%;
+    font-family: 'Segoe UI';
+    padding: 20px 0;
+    display: flex;
+    margin-top: -66.5%;
+    justify-content: space-between;
+    margin-left: 15%;  
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+  
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #C18D00;
+    position: absolute;
+    left: 0;
+    bottom: -14%;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.logodoré
+{   width: 90px;
+    margin-top: -65.5%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.flechbackwhite
+{
+    width: 1.5%;
+    opacity: 52%;
+    margin-top: -20%;
+    margin-left: 6%;
+    
+}
+.produitessence
+{
+    width: 100.1%;
+    height: 65%;
+    margin-top: 19.6%;
+}

@@ -1,0 +1,88 @@
+body
+{
+    width: 80%;
+    height: 140%;
+    background-image:url(ob.png);
+}
+.navbar
+{
+    width: 95%;
+    font-family: 'Segoe UI';
+    padding: 20px 0;
+    justify-content: space-between;
+    margin-top: -2%;
+    margin-left: 20%;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 39px;
+    position: relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+  
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #C18D00;
+    position: absolute;
+    left: 0;
+    bottom: -14%;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.logodoré
+{   width: 90px;
+    margin-top: -10%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.ligne-verticale
+{
+    border-left: 1px solid #C18D00;
+    height: 100%;
+    margin-left: 7.7%;
+}
+.oblong1
+{
+    width: 57%;
+    height: 60%;
+    margin-top: -53%;
+    margin-left: 62.5%;
+}
+.flechnextwhite
+{
+    margin-left: 112%;
+    margin-top: -5.4%;
+    width: 3%;
+}
+.cadrejaune
+{
+    width: 50%;
+    height: 38%;
+    margin-top: 16.5%;
+    margin-left: 10%;
+}
+.flechedescendant
+{
+    width: 5%;
+    margin-left: 21%;
+    margin-top: -2%;
+    
+}
+.pat
+{
+    width: 20%;
+    padding-bottom: 25%;
+    margin-left: -24%;
+}

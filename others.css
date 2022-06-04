@@ -1,0 +1,202 @@
+body
+{
+    width: 80%;
+    height: 140%;
+    background-image:url(ob.png);
+}
+.navbar
+{
+    width: 95%;
+    font-family: 'Segoe UI';
+    padding: 20px 0;
+    justify-content: space-between;
+    margin-top: -2%;
+    margin-left: 20%;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 39px;
+    position: relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+  
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #C18D00;
+    position: absolute;
+    left: 0;
+    bottom: -14%;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.logodoré
+{   width: 90px;
+    margin-top: -10%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.ligne-verticale
+{
+    border-left: 1px solid #C18D00;
+    height: 100%;
+    margin-left: 7.7%;
+}
+
+.pat
+{
+    width: 20%;
+    
+    margin-left: -24%;
+}
+.ligne-verticale2
+{
+    border-left: 3px solid #C18D00;
+    height: 40%;
+    margin-top: -55%;
+    margin-left: 66%;
+    
+}
+.cadre1
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:black;
+    width: 20%;
+    height: 20%;
+    margin-top: -19.5%;
+    margin-left: 10%;
+}
+.cadre2
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:black;
+    width: 20%;
+    height: 20%;
+    margin-top: -50%;
+    margin-left: 40%;
+}
+.cadre3
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:black;
+    width: 20%;
+    height: 20%;
+    margin-top: -20%;
+    margin-left: 40%;
+}
+.cadre4
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:black;
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.cadre5
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+   
+    width: 20%;
+    height: 20%;
+    margin-left: 70%;
+    margin-top: -50%;
+}
+.cadre6
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    
+    width: 20%;
+    height: 20%;
+    margin-left: 70%;
+    margin-top: 11%;
+}
+.cadre7
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    
+    width: 20%;
+    height: 20%;
+    margin-left: 100%;
+    margin-top: -50%;
+}
+.cadre8
+{
+    border: 2px solid #C18D00;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    
+    width: 20%;
+    height: 20%;
+    margin-left:100% ;
+    margin-top: 38%;
+}
+.s1
+{
+    margin-left: 15%;
+    margin-top: -30%;
+}
+.s2
+{
+    margin-left: 45%;
+    margin-top: -15%;
+}
+.s3
+{
+    margin-left: 15%;
+    margin-top: 20%;
+}
+.s4
+{
+    margin-left: 45%;
+    margin-top: -15%;
+}
+.video1
+{
+    width: 15%;
+    margin-left:74%;
+    margin-top: -50%;
+}
+.video2
+{
+    width: 15%;
+    margin-left: 74%;
+    margin-top: -19%;
+}
+.video3
+{
+    width: 15%;
+    margin-top: -50%;
+    margin-left: 104%;
+}
+.video4
+{
+    width: 15%;
+    margin-left: 104%;
+    margin-top: -19%;
+}

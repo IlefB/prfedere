@@ -1,0 +1,39 @@
+body{
+    background: fixed;
+    background-image: url("ob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;}
+
+
+    .logo>img{
+        width: 200px;
+        height: 200px;
+    }
+        .cadre1
+        {
+            width: 50%;
+            height: 20%;
+            
+            margin-left: 25%;
+            background-color: white;
+            opacity: 50%;
+            color: #C18D00;
+            border-radius: 8px 8px 8px 8px;
+            
+            border-color: #C18D00;
+        }
+        .cadre2
+        {
+            width: 50%;
+            height: 20%;
+            margin-top: 10%;
+            margin-left: 25%;
+            background-color: white;
+            opacity: 50%;
+            color: #C18D00;
+            border-radius: 8px 8px 8px 8px;
+            
+            border-color: #C18D00;
+            border: 3 solid;
+        }
